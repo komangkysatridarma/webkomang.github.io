@@ -1,0 +1,139 @@
+body {
+    background-color: #F1A661;
+    background: url(img/wikrama.jpeg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.logo {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo-text {
+    font-style: italic;
+}
+
+li a :hover:not(.active) {
+    color: #004258;
+}
+
+.active {
+    color: #004258;
+}
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+}
+
+img {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+}
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+}
+
+.text1 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#tag {
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+mark{
+  background: #004258;
+  color: white;
+  padding: 5px 5px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.genshin {
+    color: #ffffff;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #fbcb7b;
+  }
+  
+  .content3 {
+    padding: 1% 12% 6% 12%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 40% 60%;
+  }
+  
+  .text2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content4 {
+    text-align: center;
+    padding: 6% 12%;
+    color: #ffffff;
+  }
+  
+  .content4 p {
+    font-size: 18px;
+    color: #ffffff;
+  }
